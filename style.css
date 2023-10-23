@@ -1,0 +1,169 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+transition: 1s;
+background-color: lightblue;
+b
+}
+
+
+h1{
+    transform: translate(500px);
+    background-color: lightcyan;
+    width: 325px;
+}
+
+
+h1:hover{
+    transform: translate(515px);
+    border: 10px solid lightcyan;
+    
+}
+
+.Labels{
+    background-color: lightskyblue;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    font-size:larger
+    
+    
+    
+    
+}
+
+.lbl1:hover{
+    transform:translate(20px) ;
+    border: 4px solid lightcyan;
+   
+    
+}
+.lbl2:hover{
+    transform:translate(20px) ;
+    border: 4px solid lightcyan
+}
+.lbl3:hover{
+    transform:translate(20px) ;
+    border: 4px solid lightcyan
+}
+
+
+.lbl1:active{
+     transform: rotate(4deg);
+     background-color: brown;
+     transform: skew(20deg);
+     
+}
+.lbl2:active{
+    transform:rotate(4deg) ;
+    background-color: brown;
+    transform: skew(20deg);
+}
+.lbl3:active{
+    transform:rotate(4deg) ;
+    background-color: brown;
+    transform: skew(20deg);
+}
+
+.h2{
+    font-size: 30px;
+    translate:520px;
+    width: 320px;
+    background-color: lightskyblue;
+    
+    
+    
+}
+
+h2:hover{
+    border: 6px solid lightcyan;
+    transform: translate(15px);
+    
+}
+
+h2:active{
+    transform: rotate(50deg);
+    border: 10px solid lightgrey;
+    
+}
+
+
+p{
+    translate: 0 200px;
+}
+
+p:hover{
+    transform: rotate(1deg);
+}
+
+.imgcora{
+    transform: translate(120px);
+    width: 40px;
+  
+}
+.corahover:hover{
+    border: 5px solid lightcyan;
+}
+
+
+.imgsoporte{
+    transform: translate(40px);
+    width: 34px ;
+}
+.soportehover:hover{
+    background-color: lightcyan;
+}
+
+.imggamepad{
+    transform: translate(136px);
+    width: 40px;
+}
+.gamepadhover:hover{
+    border: 5px solid lightcyan;
+}
+
+.lblscroll{
+    display: flex;
+    flex-direction: column;
+    translate: 660px   ;
+    font-size:30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.scroll{
+    width: 200px;
+    translate: -50px;
+}
+
+.scroll:hover{
+    transform: translate(12px);
+    background-color: lightcyan;
+}
+.scroll:active{
+   transform: rotate(50deg);
+}
+
+.plorem{
+    font-size: 20px;
+    background-color: lightskyblue;
+    translate: 0 -200px;
+
+}
+.plorem:hover{
+    background-color: lightcyan;
+}
+.plorem:active{
+    transform: skew(50deg);
+}
+.imglol{
+    translate: 1150px -500px;
+    width: 300px;
+}
+.imglol:hover{
+    transform: skew(12deg);
+    border: 10px solid lightcyan;
+}
+
+
+
+
